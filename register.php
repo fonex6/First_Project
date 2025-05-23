@@ -14,7 +14,7 @@ if ($name !== '' && $reg_no !== '') {
         // Show success message then redirect
         echo "<script>
             alert('Student registered successfully!');
-            window.location.href = '/fnx2/index.html';
+            window.location.href = '/First_Project/index.html';
         </script>";
     } else {
         echo "Error: " . $stmt->error;
@@ -24,7 +24,7 @@ if ($name !== '' && $reg_no !== '') {
 } else {
     echo "<script>
         alert('Please fill in all fields!');
-        window.location.href = '/fnx2/index.html';
+        window.location.href = '/First_Project/index.html';
     </script>";
 }
 
