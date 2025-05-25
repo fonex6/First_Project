@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$user = 'root';
-$password = '';
-$dbname = 'attendance_system';
+$host = 'sql306.infinityfree.com';
+$user = 'if0_38850287';
+$password = 'WSBSOw9waKf';
+$dbname = 'if0_38850287_attendance_db';
 
 $conn = new mysqli($host, $user, $password, $dbname);
 
